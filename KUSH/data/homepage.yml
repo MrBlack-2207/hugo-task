@@ -1,0 +1,140 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Kushwanth."
+  subtitle: "amFOSS Noteworthy Devotee"
+  description: "I'm a student at <a target='_blank' href='https://www.amrita.edu/'>Amrita University</a>, an engineering college in Amritapuri,Kerala."
+  image:
+    x: "img/showcase/showcase.png"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "https://www.instagram.com/mrblack_2207/"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/kushwanth-addepalli-10852b27a/"
+
+    - icon: "github"
+      URL: "https://github.com/MrBlack-2207"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/mrblack2207"
+
+    - icon: "youtube"
+      URL: "https://www.youtube.com/channel/UCrYF9x-tcvlzrVn5ED7ZZ1Q"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/mrblack_2207/"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    Once again,I&#39m Kushwanth Addepalli(I hope you pay attention to the apostrophe in &quotI&#39m&quot,struggled very much on it)(I mean i didnt know that i have to use escape character for it so,many errors because of not recognising that).I hail from Visakhapatnam,Andhra Pradesh.I am a student at Amrita Vishwa Vidyapeetham pursuing Bachelors in Technology with a focus on Electronics and Computer Engineering.My focus is only on Computer Engineering though.Didn&#39t recieve CSE for my rank.I will salvage this anyways.
+    </p>
+    <p class="lead">
+I have joined in Amritapuri campus specifically since I was into the coding culture and various clubs that we have here.I aspire to be a member of FOSS so that it fuels my interest towards game development.Programming fascinates me.I hope to learn how everything behind the screen works.I want to dive deep into the concept and know what happens in the back-end of the programming.My non tech hobbies include Badminton and Chess.I&#39m good at them,will be of use in FOSS,bi0s tournaments if they ever happen.
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/kushwanth-addepalli-10852b27a/"
+  image:
+    x: "themes/who-am-i/user-picture.png"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Amrita Vishwa Vidyapeetham"
+      year: "2023-2027"
+      degree: "Bachelor's of Technology,Electronics and Computer Engineering"
+
+    - university: "FIITJEE"
+      year: "2021-2023"
+      degree: "Intermediate in MPC"
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "I don't have a lot experience in this field since I'm a newbie to coding.But since I was in ICSE,I was taught Java with BlueJ.I mostly used to byheart the programs like Binary Search and Sorting,since our sir was not great at making people understand.But I'm familiar with the syntaxes and all related to Java.Looking forward to working in FOSS so that I don't have to leave this section empty for the next website I create."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://youtu.be/dQw4w9WgXcQ?si=1nryxGJkjw0-qorJ"
+
+  items:
+    - title: "School Student"
+      company: "Bethany"
+      duration: "2015-2021"
+
+    - title: "Intermediate student"
+      company: "FIITJEE"
+      duration: "2021-2023"
+
+    - title: "University Student"
+      company: "Amrita Vishwa Vidhyapeetham"
+      duration: "2023-2027"
+      
+      # Client & Work
+client_and_work:
+  title: "Blog Post"
+  enable: true
+
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+91 9246042315"
+  email:
+    title: "Email"
+    email: '<a href="mailto:kushlukushwanth05@gmail.com">kushlukushwanth05@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "Vrindavan Hostel<br />Amrita Amritapuri Ashram"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"

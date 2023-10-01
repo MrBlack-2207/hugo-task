@@ -1,0 +1,671 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="generator" content="Hugo 0.110.0">
+
+    <meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=GTM-000000' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-000000');
+</script>
+
+
+<title></title>
+<style>
+     
+    .rad-fade-in {
+        will-change: opacity, transform;
+        animation-name: rad-fade-in-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-fallback {
+        0% {
+            opacity: 0;
+        }
+
+        75% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fonts-loaded .rad-fade-in.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+    }
+
+    .fonts-loaded .rad-fade-in.rad-animate {
+        animation-name: rad-fade-in;
+        animation-duration: 1.1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+     
+    .rad-fade-in-long {
+        will-change: opacity, transform;
+        animation-name: rad-fade-in-long-fallback;
+        animation-duration: 8s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-long-fallback {
+        0% {
+            opacity: 0;
+        }
+
+        75% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fonts-loaded .rad-fade-in-long.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+    }
+
+    .fonts-loaded .rad-fade-in-long.rad-animate {
+        animation-name: rad-fade-in-long;
+        animation-duration: 2s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-long {
+        0% {
+            opacity: 0;
+        }
+
+        20% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+     
+    .rad-fade-down {
+        will-change: opacity, transform;
+        animation-name: rad-fade-down-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+        transform: translateY(-30px);
+    }
+
+    @keyframes rad-fade-down-fallback {
+        0% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        75% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .fonts-loaded .rad-fade-down.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    .fonts-loaded .rad-fade-down.rad-animate {
+        animation-name: rad-fade-down;
+        animation-duration: 1.1s;
+    }
+
+    @keyframes rad-fade-down {
+        0% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+     
+    .rad-scale-down {
+        will-change: opacity, transform;
+        animation-name: rad-scale-down-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+        transform-origin: 50% 0;
+    }
+
+    @keyframes rad-scale-down-fallback {
+        0% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        75% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+
+    .fonts-loaded .rad-scale-down.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+        transform: scaleY(0.95);
+    }
+
+    .fonts-loaded .rad-scale-down.rad-animate {
+        animation-name: rad-scale-down;
+        animation-duration: 1.1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-scale-down {
+        0% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+</style>
+
+
+<link rel="stylesheet" href="https://raditian-hugo.radity.com/css/main.css"/>
+
+<link rel="stylesheet" href="https://raditian-hugo.radity.com/css/rad-icons.css"/>
+
+<link rel="stylesheet" href="https://raditian-hugo.radity.com/css/custom.css"/>
+
+
+    
+
+
+</head>
+
+<body>
+
+	<header class="header fixed-top rad-animation-group" id="header">
+  <div class="container rad-fade-in">
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+      <a class="navbar-brand" href="https://raditian-hugo.radity.com/">
+        <span></span>
+        <span>amfoss</span>
+        
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent, #header"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://raditian-hugo.radity.com/">HOME</a>
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#about"
+              >ABOUT</a
+            >
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#portfolio"
+              >BLOG POST</a
+            >
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#contact"
+              >CONTACT</a
+            >
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+	
+	
+<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
+  <div class="rad-showcase__bg">
+    <img
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      data-src="https://raditian-hugo.radity.com/img/showcase/showcase.png"
+      data-srcset="https://raditian-hugo.radity.com/img/showcase/showcase.png 1x, https://raditian-hugo.radity.com/ 2x"
+      alt=""
+    />
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
+        <h1 class="display-1">
+          Hello, I’m Kushwanth.
+          <br />
+          <span
+            >amFOSS Noteworthy Devotee</span
+          >
+        </h1>
+        <p class="lead">
+          I'm a student at <a target='_blank' href='https://www.amrita.edu/'>Amrita University</a>, an engineering college in Amritapuri,Kerala.
+        </p>
+        <a
+          href="https://www.instagram.com/mrblack_2207/"
+          class="btn btn-primary"
+        >
+          <i class="icon-mail-fill"></i>
+          Contact
+        </a>
+      </div>
+    </div>
+    <div class="row platform-links">
+      <div class="col-12">
+        
+        <a href="https://www.linkedin.com/in/kushwanth-addepalli-10852b27a/" target="_blank"
+          ><i class="icon-linkedin-line"></i
+        ></a>
+        
+        <a href="https://github.com/MrBlack-2207" target="_blank"
+          ><i class="icon-github-line"></i
+        ></a>
+        
+        <a href="https://twitter.com/mrblack2207" target="_blank"
+          ><i class="icon-twitter-line"></i
+        ></a>
+        
+        <a href="https://www.youtube.com/channel/UCrYF9x-tcvlzrVn5ED7ZZ1Q" target="_blank"
+          ><i class="icon-youtube-line"></i
+        ></a>
+        
+        <a href="https://www.instagram.com/mrblack_2207/" target="_blank"
+          ><i class="icon-instagram-line"></i
+        ></a>
+        
+      </div>
+    </div>
+  </div>
+  <div class="rad-showcase__bg rad-showcase__bg--mobile">
+    <img
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      data-src="https://raditian-hugo.radity.com/"
+      alt=""
+    />
+  </div>
+</section>
+
+
+	
+	
+<section class="section rad-animation-group pb-0" id="about">
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-column-reverse flex-md-row">
+      <div class="about__profile-picture col-12 col-md-6">
+        <img
+          class="lozad img-responsive image-left-overflow"
+          src="user-picture.png"
+          alt=" "
+        />
+      </div>
+      <div>
+        <h2>Who am I?</h2>
+        <p class="lead">
+          <p class="lead"> Once again,I&#39m Kushwanth Addepalli(I hope you pay attention to the apostrophe in &quotI&#39m&quot,struggled very much on it)(I mean i didnt know that i have to use escape character for it so,many errors because of not recognising that).I hail from Visakhapatnam,Andhra Pradesh.I am a student at Amrita Vishwa Vidyapeetham pursuing Bachelors in Technology with a focus on Electronics and Computer Engineering.My focus is only on Computer Engineering though.Didn&#39t recieve CSE for my rank.I will salvage this anyways. </p> <p class="lead"> I have joined in Amritapuri campus specifically since I was into the coding culture and various clubs that we have here.I aspire to be a member of FOSS so that it fuels my interest towards game development.Programming fascinates me.I hope to learn how everything behind the screen works.I want to dive deep into the concept and know what happens in the back-end of the programming.My non tech hobbies include Badminton and Chess.I&#39m good at them,will be of use in FOSS,bi0s tournaments if they ever happen. </p>
+        </p>
+        <a
+          href="https://www.linkedin.com/in/kushwanth-addepalli-10852b27a/"
+          target="_blank"
+          class="btn btn-primary"
+        >
+          <i class="icon-smile-fill"></i>
+          About Me
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+	
+	
+<section class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>Education</h2>
+                <div class="row pt-2 pt-md-4">
+                    
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__date">2023-2027</div>
+                            <div class="education__title">Amrita Vishwa Vidyapeetham</div>
+                            <div class="education__degree">
+                                Bachelor&#39;s of Technology,Electronics and Computer Engineering
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__date">2021-2023</div>
+                            <div class="education__title">FIITJEE</div>
+                            <div class="education__degree">
+                                Intermediate in MPC
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	
+	
+<section id="experience" class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row flex-column-reverse flex-md-row rad-fade-down">
+            <div class="col-12 col-sm-6 mt-5 mt-sm-0">
+                
+                <div class="experience">
+                    <div class="experience__date">2015-2021</div>
+                    <div class="experience__title">School Student</div>
+                    <div class="experience__company">Bethany</div>
+                </div>
+                
+                <div class="experience">
+                    <div class="experience__date">2021-2023</div>
+                    <div class="experience__title">Intermediate student</div>
+                    <div class="experience__company">FIITJEE</div>
+                </div>
+                
+                <div class="experience">
+                    <div class="experience__date">2023-2027</div>
+                    <div class="experience__title">University Student</div>
+                    <div class="experience__company">Amrita Vishwa Vidhyapeetham</div>
+                </div>
+                
+            </div>
+            <div class="col-12 col-sm-6">
+                <h2>Experience</h2>
+                <p class="lead">
+                    I don&#39;t have a lot experience in this field since I&#39;m a newbie to coding.But since I was in ICSE,I was taught Java with BlueJ.I mostly used to byheart the programs like Binary Search and Sorting,since our sir was not great at making people understand.But I&#39;m familiar with the syntaxes and all related to Java.Looking forward to working in FOSS so that I don&#39;t have to leave this section empty for the next website I create.
+                </p>
+                <a href="https://youtu.be/dQw4w9WgXcQ?si=1nryxGJkjw0-qorJ" class="btn btn-primary"
+                   target="_blank">
+                    <i class="icon-linkedin-fill"></i>
+                    Linkedin
+                    <i class="icon-arrow-right"></i></a>
+                <a href="https://raditian-hugo.radity.com/" class="btn btn-frameless"
+                   target="_blank">
+                    <i class=""></i>
+                    
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	
+	
+<section id="portfolio" class="section section--border-bottom">
+  <div class="container">
+    <h2 class=" rad-animation-group rad-fade-down">
+      Blog Post
+    </h2>
+    <h3>Here's how I approached the task : </h3>
+    <ul>
+      <li>
+        <h5>CREATED TWO NEW REPOSITORIES</h5>
+      <p>So I was all confused in the first so I was surfing on youtube on how to create a website using hugo.So found a
+        good tutorial,he asked me to create 2 new repositories.One named blog and the other named like
+        username.github.io.git cloned to my blog repository.</p>
+      </li>
+      <li>
+        <h5>CHOSE A PERFECT THEME FOR MY BLOG</h5>
+      <p>
+        I chose Raditian Hugo theme for my portfolio website.I found it very interesting.So I started working on it even
+        though it's kind of hard to edit stuff here.It is not direct.I had to browse through all the files to know which
+        file I should edit to make a change in the website.I even had to involve in main.css for doing this.Infact now I'm editing in html file and not config.toml where all other themes just need config.toml changed.So I chose this and cloned it to my blog repository after CDing to the themes.
+      </p>
+      </li>
+      <li>
+        <h5>STARTED EDITING </h5>
+      <p>
+        I started editing the connfig.toml file first,and with every change I made,felt a sense of joy and accomplishment.But apparently,it was not that simple for me because i was struggling with errors.I,after a lot of time found out that it was because of not using the escape character.Was kinda frustrating but ofcourse,sense of achievement after solving that error.
+      </p>
+      </li>
+      <li>
+        <h5>CREATING A BLOG POST</h5>
+        <p>
+          It had sections like achievements,clients&works which I had nothing to do with.So I though it will be easy to remove them by just deleting the from config file.But it didn't work that way because css was involving into this.Some features related to style were stopping my description to be printed.I had to figure out alot and understand about the whole mechanism of how this works and kept surfing through all the folders and then found html files of separate sections of the portfolio.Then I started editing.This was the toughest task for me.
+        </p>
+      </li>
+      <li>
+        <h5>PUSHING IT TO THE GITHUB AND DEPLOYING</h5>
+      <p>
+       I pushed it by making my full theme into a submodule and used vercel for hosting.(I can't say more detailedly cause I still did'nt do it yet,i will edit if i can after doing it)
+      </p>
+      </li>
+
+    </ul>
+  </div>
+</section>
+
+	
+	
+
+	
+	
+<section id="contact" class="section section--contact pt-0">
+    <div class="container">
+        <div class="contact">
+            <h2>Contact</h2>
+            <div class="row pt-2">
+                <div class="col-12 col-lg-7">
+                    <form action="#" method="">
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <input type="text" name="" id="full_name"
+                                       placeholder="Full Name"/>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="text" name="" id="email"
+                                       placeholder="Email Address"/>
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-12">
+                                <textarea name="" id="message"
+                                          cols="30" rows="3" placeholder="Type Your Message Here"></textarea>
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="icon-mail-fill"></i>
+                                    Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-lg-5 contact__info">
+                    <h4>Phone Number</h4>
+                    <span>&#43;91 9246042315</span>
+                    <h4>Email</h4>
+                    <span><a href="mailto:kushlukushwanth05@gmail.com">kushlukushwanth05@gmail.com</a></span>
+                    <h4>Address</h4>
+                    <span>Vrindavan Hostel<br />Amrita Amritapuri Ashram</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	
+	
+
+	
+
+	<footer class="footer">
+  <div class="container">
+    <div class="footer__left">
+      <div class="footer__copy">
+        © Raditian. All rights reserved.
+      </div>
+    </div>
+    <div class="footer__links">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="https://raditian-hugo.radity.com/">ABOUT</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="https://raditian-hugo.radity.com/">BLOG POST</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="https://raditian-hugo.radity.com/">CONTACT</a>
+        </li>
+        
+      </ul>
+    </div>
+    <div class="footer__right">
+      <a href="https://radity.com/"
+        ><img
+          src="https://raditian-hugo.radity.com/img/general/design-and-code-radity.png"
+          srcset="https://raditian-hugo.radity.com/img/general/design-and-code-radity.png 1x, https://raditian-hugo.radity.com/img/general/design-and-code-radity@2x.png 2x"
+          alt="Design &amp; Code - Radity"
+      /></a>
+    </div>
+  </div>
+</footer>
+
+    <script src='https://raditian-hugo.radity.com/js/rad-animations.js'></script>
+<script src='https://raditian-hugo.radity.com/js/library/lozad.min.js'></script>
+<script>
+  window.addEventListener("load", function() {
+    var observer = window.lozad(".lozad", {
+      rootMargin: window.innerHeight / 2 + "px 0px",
+      threshold: 0.01
+    }); 
+    observer.observe();
+  });
+</script>
+<script src='https://raditian-hugo.radity.com/js/library/jquery-3.3.1.slim.min.js'></script>
+<script src='https://raditian-hugo.radity.com/js/library/bootstrap.min.js'></script>
+<script src='https://raditian-hugo.radity.com/js/sticky-header.js'></script>
+<script src='https://raditian-hugo.radity.com/js/library/smooth-scroll.polyfills.min.js'></script>
+<script src='https://raditian-hugo.radity.com/js/library/fontfaceobserver.js'></script>
+<script>
+  (function(w) {
+    
+    if (w.document.documentElement.className.indexOf("fonts-loaded") > -1) {
+      return;
+    }
+    var fontA = new w.FontFaceObserver("Inter", {
+      weight: 300
+    });
+    var fontB = new w.FontFaceObserver("Inter", {
+      weight: 400
+    });
+    var fontC = new w.FontFaceObserver("Inter", {
+      weight: 500
+    });
+    var fontD = new w.FontFaceObserver("Inter", {
+      weight: 600
+    });
+    var fontE = new w.FontFaceObserver("Inter", {
+      weight: 700
+    });
+    var fontF = new w.FontFaceObserver("Inter", {
+      weight: 900
+    });
+    w.Promise.all([fontA.load(), fontC.load(), fontF.load()]).then(function() {
+      w.document.documentElement.className += " fonts-loaded";
+    });
+  })(this);
+</script>
+<script>
+  const scroll = new SmoothScroll('a[href*="#"]');
+    $('a.nav-link').on('click', () => {
+      const navbar = $('.navbar-collapse');
+      if (navbar && navbar.hasClass('show')) {
+        $('.navbar-toggler').click();
+      }
+    })
+</script>
+
+</body>
+
+</html>

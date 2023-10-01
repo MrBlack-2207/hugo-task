@@ -1,0 +1,45 @@
+{{ if .Site.Data.homepage.client_and_work.enable }}
+<section id="portfolio" class="section section--border-bottom">
+  <div class="container">
+    <h2 class=" rad-animation-group rad-fade-down">
+      {{ .Site.Data.homepage.client_and_work.title }}
+    </h2>
+    <h3>Here's how I approached the task : </h3>
+    <ul>
+      <li>
+        <h5>CREATED TWO NEW REPOSITORIES</h5>
+      <p>So I was all confused in the first so I was surfing on youtube on how to create a website using hugo.So found a
+        good tutorial,he asked me to create 2 new repositories.One named blog and the other named like
+        username.github.io.git cloned to my blog repository.</p>
+      </li>
+      <li>
+        <h5>CHOSE A PERFECT THEME FOR MY BLOG</h5>
+      <p>
+        I chose Raditian Hugo theme for my portfolio website.I found it very interesting.So I started working on it even
+        though it's kind of hard to edit stuff here.It is not direct.I had to browse through all the files to know which
+        file I should edit to make a change in the website.I even had to involve in main.css for doing this.Infact now I'm editing in html file and not config.toml where all other themes just need config.toml changed.So I chose this and cloned it to my blog repository after CDing to the themes.
+      </p>
+      </li>
+      <li>
+        <h5>STARTED EDITING </h5>
+      <p>
+        I started editing the connfig.toml file first,and with every change I made,felt a sense of joy and accomplishment.But apparently,it was not that simple for me because i was struggling with errors.I,after a lot of time found out that it was because of not using the escape character.Was kinda frustrating but ofcourse,sense of achievement after solving that error.
+      </p>
+      </li>
+      <li>
+        <h5>CREATING A BLOG POST</h5>
+        <p>
+          It had sections like achievements,clients&works which I had nothing to do with.So I though it will be easy to remove them by just deleting the from config file.But it didn't work that way because css was involving into this.Some features related to style were stopping my description to be printed.I had to figure out alot and understand about the whole mechanism of how this works and kept surfing through all the folders and then found html files of separate sections of the portfolio.Then I started editing.This was the toughest task for me.
+        </p>
+      </li>
+      <li>
+        <h5>PUSHING IT TO THE GITHUB AND DEPLOYING</h5>
+      <p>
+       I pushed it by making my full theme into a submodule and used vercel for hosting.(I can't say more detailedly cause I still did'nt do it yet,i will edit if i can after doing it)
+      </p>
+      </li>
+
+    </ul>
+  </div>
+</section>
+{{ end }}
